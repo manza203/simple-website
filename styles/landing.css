@@ -115,14 +115,21 @@ header{
 
 .btn {
   padding: 0.6rem 1rem;
-  background: var(--primary-color);
-  color: var(--extra-light);
-  font-weight: 400px;
+  /* background: var(--primary-color); */
+  color: var(--primary-color);
+  font-weight: 500px;
   border-radius: 5rem;
   display: inline-flex;
   align-items: center;
   justify-content: space-between;
   gap: 10px ;
+}
+
+.btn:hover{
+  background-color: var(--primary-color);
+  border-radius: 5rem;
+  color: var(--extra-light);
+  transition: backround 0.5s smooth;
 }
 
 section{
@@ -142,6 +149,7 @@ section{
 
 .heading h2 {
   color: var(--primary-color);
+  font-weight: 700;
 }
 
 .content {
